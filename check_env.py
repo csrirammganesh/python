@@ -56,3 +56,12 @@ print("addition of a,b:", a+b)
 # enter the number of b :23
 # 46
 # PS C:\you work\python\practise> 
+
+environment= input("Enter the environment:")
+
+if environment == "prd":
+    print("deploy the project")
+elif environment== "stg":
+    print("take backup and testwell")
+else:
+    print("deploy on anyday")
